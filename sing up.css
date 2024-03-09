@@ -1,0 +1,88 @@
+body{
+background-color:#cccccc;
+background-image:url(backg3.png);
+background-size:cover;
+background-repeat: no-repeat;
+
+padding: 5px;
+height: 100%;
+}
+.top_space{
+height:50px;
+}
+.main{
+display:table;
+vertical-align:center;
+margin: auto;
+background-color:#ffffff;
+width: 600px;
+height: 290px;
+padding: 20px 20px;
+border-radius: 20px;
+
+}
+
+.sub_main{
+display:table cell;
+background-color:#cccccc;
+vertical-align:top;
+text-align:left;
+}
+
+.sub_main_1{
+width:600px;
+height:50px;
+padding:10px 10px;
+outline: 6px solid blue;
+margin: 20px;
+
+
+}
+.table_1{
+
+display:table;
+height: 590px;
+width: 390px;
+background-color:#ffffff;
+margin:auto;
+opacity: 0.8;
+border:1px solid ;
+border-radius: 20px;
+
+
+}
+input[type="text"]{
+ width:300px;
+ box-sizing:border-box;
+ padding:10px;
+ border-radius:5px;
+ margin-left:10px;
+}
+input[type="password"]{
+ width:300px;
+ box-sizing:border-box;
+ padding:10px;
+ border-radius:5px;
+ margin-left:10px;
+}
+input[type="email"]{
+ width:300px;
+ box-sizing:border-box;
+ padding:10px;
+ border-radius:5px;
+ margin-left:10px;
+}
+input[type="Tel"]{
+ width:300px;
+ box-sizing:border-box;
+ padding:10px;
+ border-radius:5px;
+ margin-left:10px;
+}
+input[list="bookName"]{
+ width:300px;
+ box-sizing:border-box;
+ padding:10px;
+ border-radius:5px;
+ margin-left:10px;
+ }

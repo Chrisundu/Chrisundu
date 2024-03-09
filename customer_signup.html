@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="sing up.css">
+    <meta charset="UTF-8">
+    <title>customer signup</title>
+</head>
+<body>
+
+<div class="table_1" >
+<form action="process.php" method="post"   >
+    <div class="Form">
+
+        <h3>Enter name:</h3>
+            <input type="text" placeholder="Name" name="name"><br>
+        <h3>Telephone:</h3>
+            <input type="Tel" placeholder="Telephone" required pattern="\d*" title="Numbers only, please" name="telephone">
+
+
+        <h3>National ID:</h3>
+            <input type="text" required name="id">
+
+        <br>
+
+            <h3><label>E-mail:</label></h3>
+            <input type="email" name="Email" name="email">
+
+            <h3><label>Password:</label></h3>
+            <input type="password" name="Password" placeholder="******" name="password">
+
+            <h3 align="center" ><input type="submit" value="SUBMIT"></h3>
+
+
+    </div>
+
+</form>
+</div>
+
+</body>
+</html>
